@@ -3,7 +3,7 @@
   <Loading v-if="!loading" />
 
   <!-- Movie Info -->
-  <div v-else class="single-movie container animate__animated animate__zoomInDown">
+  <div v-else class="single-movie container animate__animated animate__bounceInDown">
     <NuxtLink class="button" :to="{ name: 'index' }"> Back </NuxtLink>
     <div class="movie-info">
       <div class="movie-img">
