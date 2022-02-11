@@ -25,9 +25,9 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #27ae60;
+  background-color: #EDC126;
   height: 80px;
-  color: #fff;
+  color: #000;
   padding: 20px;
   margin-top: 10px;
   letter-spacing: 2px;
@@ -36,10 +36,9 @@ footer {
   font-weight: bold;
   a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     &:hover{
         text-decoration: underline;
-        color: red;
     }
   }
 }

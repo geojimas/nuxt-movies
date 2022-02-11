@@ -98,7 +98,7 @@
         <h1 class="notFound">No movies found 😢</h1>
       </div>
     </div>
-    <Footer v-if="searchReq && searchedMovies.length > 0" />
+    <Footer />
   </div>
 </template>
 
@@ -106,7 +106,7 @@
 import { defineComponent, onBeforeMount, ref, useFetch, useMeta } from '@nuxtjs/composition-api'
 import axios from 'axios'
 import Swal from 'sweetalert2'
-import Movie from '~/interfaces/Movie'
+import Movie from '../interfaces/Movie'
 
 export default defineComponent({
   name: 'Index',

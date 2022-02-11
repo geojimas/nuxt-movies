@@ -30,9 +30,11 @@
   text-decoration: none;
   color: inherit;
   padding: 8px 16px;
-  background-color: #5f27cd;
+  background-color: #F7CD2E;
   border: none;
-  color: #fff;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s ease all;
@@ -112,7 +114,6 @@ Index Page Styles
       width: 80px;
       height: 55px;
       font-size: 18px;
-      border: 3px solid #5f27cd;
       background-color: #eb4d4b;
       color: #fff;
       border-radius: 15px;
@@ -121,7 +122,6 @@ Index Page Styles
       letter-spacing: 1px;
 
       &:hover {
-        border: 2px solid greenyellow;
         color: #fff;
         transform: scale(1.01);
       }
@@ -180,7 +180,7 @@ Index Page Styles
             line-height: 1.5;
             position: absolute;
             bottom: 0;
-            background-color: #5f27cd;
+            background-color: #222125;
             padding: 12px;
             color: #fff;
             transform: translateY(100%);
@@ -219,7 +219,7 @@ Index Page Styles
             height: 30px;
             justify-content: center;
             align-items: center;
-            background-color: #eb4d4b;
+            background-color: #e90c31;
             font-weight: bold;
             letter-spacing: 1px;
             border-radius: 20px;
@@ -375,10 +375,11 @@ Id component Styles
     }
 
     .movie-content {
+      letter-spacing: 2px;
       h1 {
         font-size: 56px;
         font-weight: 400;
-        color: #3498db;
+        color: #EDC126
         ;
       }
 
@@ -390,7 +391,7 @@ Id component Styles
         span {
           font-weight: 600;
           text-decoration: underline;
-          color: #3498db;
+          color: #EDC126
           ;
         }
       }
