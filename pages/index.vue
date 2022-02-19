@@ -147,8 +147,10 @@ export default defineComponent({
           })
         }
       } catch (error) {
-        // eslint-disable-next-line no-console
-        console.log(error)
+        Swal.fire({
+            icon: 'error',
+            title: `${error}`,
+          })
       } finally {
         searchReq.value = true
       }
